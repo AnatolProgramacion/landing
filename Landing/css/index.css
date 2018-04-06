@@ -1,0 +1,120 @@
+@import url('reset.css');
+@import url('colors.css');
+@import url('menu.css');
+body {
+  color: var(--white);
+}
+
+#start {
+  background-color: var(--yellow);
+}
+
+#intro {
+  background-color: var(--pink);
+}
+
+#skill {
+  background-color: var(--blue);
+}
+
+#proyects {
+  background-color: var(--violet);
+}
+
+#workingLife {
+  background-color: var(--darkViolet);
+}
+
+/* Start Section */
+
+.section {
+  height: 100vh;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--hoverBlack);
+}
+
+.flexCenter {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonInfo {
+  height: 50px;
+  width: 120px;
+  background-color: var(--Black);
+  color: var(--white);
+}
+
+.titleStart {
+  font-size: 200px;
+  position: relative;
+  text-align: center;
+  top: 30vh;
+  color: var(--darkViolet);
+}
+
+.arrow {
+  width: 1080px;
+}
+
+/* Introduction Section */
+
+.wrapperIntro {
+  height: 100vh;
+  width: 99vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+}
+
+.info {
+  margin-top: 100px;
+  background-color: var(--Black);
+  height: 250px;
+  width: 250px;
+}
+
+/* Skills */
+
+.skills {
+  height: 100vh;
+  width: 99vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  -webkit-flex-flow: row wrap;
+}
+
+.donutContainer {
+  max-width: 400px;
+  max-height: 400px
+}
+
+.donut {
+  max-width: 400px;
+  max-height: 400px;
+}

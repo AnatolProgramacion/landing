@@ -1,0 +1,18 @@
+:root{
+  --blue:#3A0088;
+  --violet:#930077;
+  --pink:#E61C5D;
+  --yellow:#FFBD39;
+  --darkViolet: #140C1D;
+  --white: #FFFAFA;
+  --Black:#222222;
+
+  --hoverBlue:#3A0088D9;
+  --hoverViolet:#930077D9;
+  --hoverPink:#E61C5DD9;
+  --hoverYellow:#FFBD39D9;
+  --hoverDarkViolet: #140C1DD9;
+  --hoverWhite: #FFFAFAD9;
+  --hoverBlack:#222222D9;
+
+}
