@@ -1,15 +1,4 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * All rights reserved
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
-@@import url("colors.css");
+@import url("colors.css");
 a {
   text-decoration: none;
   color: var(--violet);
